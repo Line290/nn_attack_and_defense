@@ -1,0 +1,6 @@
+[submodule "TensBlur"]
+	path = TensBlur
+	url = https://github.com/antonilo/TensBlur.git
+[submodule "imagenet/nets/TensBlur"]
+	path = imagenet/nets/TensBlur
+	url = https://github.com/antonilo/TensBlur.git
