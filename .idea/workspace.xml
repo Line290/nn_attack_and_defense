@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c1d049-3b8f-4c42-94e3-4429db28ffb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenet/nets/TensBlur" beforeDir="false" afterPath="$PROJECT_DIR$/imagenet/nets/TensBlur" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imagenet/nets/TensBlur/smoother.py" beforeDir="false" afterPath="$PROJECT_DIR$/imagenet/nets/TensBlur/smoother.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,22 +22,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="16" />
+          <entry key="py" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="16" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1331" />
+          <entry key="py" value="3316" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1331" />
+          <entry key="Python" value="3316" />
         </counts>
       </usages-collector>
     </session>
@@ -54,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imagenet/attack_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2046">
-              <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+            <state relative-caret-position="561">
+              <caret line="23" column="10" selection-start-line="21" selection-end-line="23" selection-end-column="44" />
               <folding>
                 <element signature="e#1#39#0" expanded="true" />
               </folding>
@@ -66,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imagenet/AttackTools/l2_attack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="124" column="36" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="36" />
+            <state relative-caret-position="1041">
+              <caret line="239" column="37" lean-forward="true" selection-start-line="239" selection-start-column="37" selection-end-line="239" selection-end-column="37" />
               <folding>
                 <element signature="e#247#257#0" expanded="true" />
               </folding>
@@ -78,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imagenet/stuff_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-223">
-              <caret line="146" column="60" lean-forward="true" selection-start-line="146" selection-start-column="60" selection-end-line="146" selection-end-column="60" />
+            <state relative-caret-position="701">
+              <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -99,14 +101,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imagenet/AttackTools/PGD_attack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+            <state relative-caret-position="1095">
+              <caret line="85" column="108" selection-start-line="85" selection-start-column="108" selection-end-line="85" selection-end-column="108" />
               <folding>
                 <element signature="e#122#132#0" expanded="true" />
-                <marker date="1543833205880" expanded="true" signature="193:198" ph="..." />
+                <marker date="1543850459581" expanded="true" signature="193:198" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imagenet/attack_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="e#122#166#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imagenet/AttackTools/FGSM_attack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+              <folding>
+                <element signature="e#123#133#0" expanded="true" />
+                <marker date="1543850697063" expanded="true" signature="189:194" ph="..." />
               </folding>
             </state>
           </provider>
@@ -124,10 +151,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>model</find>
+      <find>labels</find>
+      <find>batchlab</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/imagenet/nets/TensBlur" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -136,18 +165,21 @@
         <option value="$PROJECT_DIR$/imagenet/attack/__init__.py" />
         <option value="$PROJECT_DIR$/imagenet/eval_cg.py" />
         <option value="$PROJECT_DIR$/imagenet/AttackTools/l2_attack_ensemble.py" />
-        <option value="$PROJECT_DIR$/imagenet/stuff_v2.py" />
         <option value="$PROJECT_DIR$/imagenet/AttackTools/l2attack.py" />
-        <option value="$PROJECT_DIR$/imagenet/AttackTools/l2_attack.py" />
         <option value="$PROJECT_DIR$/imagenet/attack_v2.py" />
+        <option value="$PROJECT_DIR$/imagenet/nets/attack_test.py" />
+        <option value="$PROJECT_DIR$/imagenet/stuff_v2.py" />
+        <option value="$PROJECT_DIR$/imagenet/AttackTools/l2_attack.py" />
         <option value="$PROJECT_DIR$/imagenet/AttackTools/PGD_attack.py" />
+        <option value="$PROJECT_DIR$/imagenet/AttackTools/FGSM_attack.py" />
+        <option value="$PROJECT_DIR$/imagenet/attack_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="1547" />
+    <option name="x" value="1730" />
     <option name="y" value="36" />
-    <option name="width" value="1871" />
+    <option name="width" value="2332" />
     <option name="height" value="2124" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -205,6 +237,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/imagenet" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -231,14 +268,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1547" y="36" width="1871" height="2124" extended-state="4" />
+    <frame x="1730" y="36" width="2332" height="2124" extended-state="4" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.121393576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12010444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3298153" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.23430079" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298153" />
@@ -338,23 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imagenet/attack_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2046">
-          <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
-          <folding>
-            <element signature="e#1#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagenet/AttackTools/PGDattack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3498">
-          <caret line="68" column="146" lean-forward="true" selection-start-line="68" selection-start-column="107" selection-end-line="68" selection-end-column="146" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imagenet/AttackTools/l2_attack_ensemble.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -372,20 +392,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/AttackTools/PGDattack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="68" column="146" lean-forward="true" selection-start-line="68" selection-start-column="107" selection-end-line="68" selection-end-column="146" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imagenet/stuff_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-223">
-          <caret line="146" column="60" lean-forward="true" selection-start-line="146" selection-start-column="60" selection-end-line="146" selection-end-column="60" />
+        <state relative-caret-position="701">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/attack_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="23" column="10" selection-start-line="21" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="e#1#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imagenet/AttackTools/l2_attack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="124" column="36" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="36" />
+        <state relative-caret-position="1041">
+          <caret line="239" column="37" lean-forward="true" selection-start-line="239" selection-start-column="37" selection-end-line="239" selection-end-column="37" />
           <folding>
             <element signature="e#247#257#0" expanded="true" />
           </folding>
@@ -394,11 +431,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imagenet/AttackTools/PGD_attack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+        <state relative-caret-position="1095">
+          <caret line="85" column="108" selection-start-line="85" selection-start-column="108" selection-end-line="85" selection-end-column="108" />
           <folding>
             <element signature="e#122#132#0" expanded="true" />
-            <marker date="1543833205880" expanded="true" signature="193:198" ph="..." />
+            <marker date="1543850459581" expanded="true" signature="193:198" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/AttackTools/FGSM_attack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <element signature="e#123#133#0" expanded="true" />
+            <marker date="1543850697063" expanded="true" signature="189:194" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/attack_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#122#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
