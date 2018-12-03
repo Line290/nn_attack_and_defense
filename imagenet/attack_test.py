@@ -13,7 +13,7 @@ if __name__ == '__main__':
     import sys
     import numpy as np
 
-    model_name, attack_name = sys.argv[1:]
+    model_name, attack_name, offset, count = sys.argv[1:]
     model_name = 'base_inception_model'
     # attack_name = 'CWl2'
     batch_size = 2
