@@ -1,7 +1,7 @@
 .*
 !/.gitignore
 *.pyc
-/resnet_32_cifar10
-/SENet-Tensorflow/cifar-10-batches-py
-/SENet-Tensorflow/*logs
-/SENet-Tensorflow/model
+cifar10/resnet_32_cifar10
+cifar10/SENet-Tensorflow/cifar-10-batches-py
+cifar10/SENet-Tensorflow/*logs
+cifar10/SENet-Tensorflow/model
